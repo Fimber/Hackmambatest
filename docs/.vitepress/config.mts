@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/Hackmambatest/',
   title: 'API Dev Docs',
   description: 'Tutorials and API reference for JavaScript developers',
   themeConfig: {
