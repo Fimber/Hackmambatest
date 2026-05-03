@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/admin/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/eb595c9f-cda5-4f9a-83a1-e720c32b28ee/d4e8918a-c17b-438c-b74e-939ac9f56dcc/skills/docx/**)",
+      "Bash(pandoc --track-changes=all \"C:\\\\Users\\\\admin\\\\Downloads\\\\Day 9.docx\" -o /tmp/day9.md)",
+      "Bash(pandoc --track-changes=all \"C:\\\\Users\\\\admin\\\\Downloads\\\\Day 7.docx\" -o /tmp/day7.md)",
+      "Bash(where pandoc *)",
+      "Bash(python -c \"import docx; print\\('python-docx available'\\)\")",
+      "Bash(python -c \"import zipfile, sys; z = zipfile.ZipFile\\('C:/Users/admin/Downloads/Day 9.docx'\\); content = z.read\\('word/document.xml'\\).decode\\('utf-8'\\); print\\(content[:3000]\\)\")",
+      "Bash(npm --version)",
+      "Bash(mkdir -p \"C:/Users/admin/Desktop/CURL/docs\")",
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(where vale *)",
+      "Bash(vale --version)",
+      "Bash(winget install *)",
+      "Bash(export PATH=\"$PATH:/c/Users/admin/AppData/Local/Microsoft/WinGet/Packages/errata-ai.vale_Microsoft.Winget.Source_8wekyb3d8bbwe\")",
+      "Bash(\"/c/Users/admin/AppData/Local/Microsoft/WinGet/Links/vale.exe\" --version)",
+      "Read(//c/Users/admin/**)",
+      "Bash(vale sync *)",
+      "Bash(cmd /c \"where vale\")",
+      "Bash(cmd /c \"where vale 2>&1\")",
+      "Bash(/c/Users/admin/AppData/Local/Microsoft/WinGet/Packages/errata-ai.Vale_Microsoft.Winget.Source_8wekyb3d8bbwe/vale.exe sync *)",
+      "Bash(/c/Users/admin/AppData/Local/Microsoft/WinGet/Packages/errata-ai.Vale_Microsoft.Winget.Source_8wekyb3d8bbwe/vale.exe docs/)",
+      "Bash(npm run *)"
+    ]
+  }
+}
